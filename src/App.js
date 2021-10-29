@@ -24,6 +24,7 @@ const App = () => {
   const [squareBeingReplaced, setSquareBeingReplaced] = useState(null)
   const [scoreDisplay, setScoreDisplay] = useState(0)
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const checkForColumnOfFour = () => {
     for (let i = 0; i <= 39; i++) {
       const columnOfFour = [i, i + width, i + width * 2, i + width * 3]
@@ -38,6 +39,7 @@ const App = () => {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const checkForRowOfFour = () => {
     for (let i = 0; i < 64; i++) {
       const rowOfFour = [i, i + 1, i + 2, i + 3]
@@ -55,6 +57,7 @@ const App = () => {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const checkForColumnOfThree = () => {
     for (let i = 0; i <= 47; i++) {
       const columnOfThree = [i, i + width, i + width * 2]
@@ -69,6 +72,7 @@ const App = () => {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const checkForRowOfThree = () => {
     for (let i = 0; i < 64; i++) {
       const rowOfThree = [i, i + 1, i + 2]
@@ -86,6 +90,7 @@ const App = () => {
     }
   }
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const moveIntoSquareBelow = () => {
     for (let i = 0; i <= 55; i++) {
       const firstRow = [0, 1, 2, 3, 4, 5, 6, 7]
