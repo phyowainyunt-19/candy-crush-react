@@ -2,7 +2,7 @@
 
 ![Candy Crush](https://i.ibb.co/q0XPZqd/cc.png)
 
-Candy crush with ReactJS using some state mangements and logics.
+Candy crush with ReactJS using some react mangements and logics.
 
 
 Setup:
